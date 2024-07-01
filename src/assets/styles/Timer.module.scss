@@ -1,0 +1,18 @@
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.time-string {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.active-timer {
+    color: var(--ant-button-default-hover-color);
+    border-color: var(--ant-button-default-hover-border-color);
+    background: var(--ant-button-default-hover-bg);
+}

@@ -1,0 +1,15 @@
+.task-tracker-container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    min-height: 270px;
+
+    .ant-select {
+        width: 250px;
+        text-align: left;
+    }
+}

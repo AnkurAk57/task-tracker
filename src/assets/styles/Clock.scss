@@ -1,0 +1,26 @@
+.clock-container {
+    width: 200px;
+    height: 200px;
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .clock-face {
+        stroke: #333;
+        fill: white;
+    }
+
+    .major {
+        stroke: #333;
+        stroke-width: 1;
+    }
+
+    .hour {
+        stroke: #333;
+    }
+
+    .minute {
+        stroke: #666;
+    }
+}
